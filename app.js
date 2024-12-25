@@ -14,7 +14,7 @@ document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
 document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
 if(data.weather[0].main == "Clear"){
-    weatherIcon.src="/icons/clear_img.png";
+    weatherIcon.src="icons/clear_img.png";
 }
 else if (data.weather[0].main == "Clouds"){
     weatherIcon.src="icons/cloudy_img.png";
