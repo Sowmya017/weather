@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: linear-gradient(120deg,#7ab2d3c3,#3e799cd0);
+    color: #4A628A ;
+}
+.search_bar{
+    width:90%;
+    max-width:470px;
+   background: linear-gradient(120deg,#3da7e5c3,#3e7a9cd5); 
+    color: #FEFAF6;
+    margin:100px auto 0;
+    border-radius:1.5rem;
+    padding:2rem 1.5rem;
+    text-align: center;
+}
+.search{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center
+
+}
+.search input{
+    background-color: aliceblue;
+    outline:0;
+    padding: .6rem;
+    border:1px solid aliceblue;
+    margin-right: 2rem;
+    border-radius:2.5rem;
+    font-size:17px;
+    color:#3e7a9c98;
+}
+.search i {
+    border:0;
+    outline:0;
+    background-color: aliceblue;
+    width:2.3rem;
+    height:2.3rem;
+    border-radius:50%;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#3e799cd0;
+}
+.whether img{
+    width:15rem;
+    height:15rem;
+    margin-top:2rem;
+}
+.whether h1{
+    font-size:50px;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+.whether h2{
+    font-size:27px;
+    font-weight: 250;
+    margin-top: .2rem;
+}
+.details{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:0 20px;
+    margin-top:2rem;
+}
+.humidity,.wind{
+    font-size:1.5rem;
+    margin-top:0.6rem ;
+}
+.one img{
+    height:3rem;
+    width:3rem;
+    
+}
+.two img{
+    height:3rem;
+    width:5.5rem;
+    margin-bottom: -0.5rem;
+}
