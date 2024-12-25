@@ -29,7 +29,7 @@ const weatherMain = data.weather[0].main;
         } else if (weatherMain === "Windy") {
             weatherIcon.src = "icons/scatteredClouds_img.png";
         } else {
-            weatherIcon.src = "icons/default_img.png"; // Default icon
+            weatherIcon.src = "icons/whether_img.png"; // Default icon
         }
 
 
