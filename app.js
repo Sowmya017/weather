@@ -17,22 +17,22 @@ if(data.weather[0].main == "Clear"){
     weatherIcon.src="/icons/clear_img.png";
 }
 else if (data.weather[0].main == "Clouds"){
-    weatherIcon.src="/icons/cloudy_img.png";
+    weatherIcon.src="icons/cloudy_img.png";
 }
 else if (data.weather[0].main == "Rain"){
-    weatherIcon.src="/icons/rain_img.png";
+    weatherIcon.src="icons/rain_img.png";
 }
 else if (data.weather[0].main == "Drizzle"){
-    weatherIcon.src="/icons/showerRain_img.png";
+    weatherIcon.src="icons/showerRain_img.png";
 }
 else if (data.weather[0].main == "Mist"){
-    weatherIcon.src="/icons/mist_img.png";
+    weatherIcon.src="icons/mist_img.png";
 }
 else if (data.weather[0].main == "Snow"){
-    weatherIcon.src="/icons/snow_img.png";
+    weatherIcon.src="icons/snow_img.png";
 }
 else if (data.weather[0].main == "windy"){
-    weatherIcon.src="/icons/scatteredClouds_img.png";
+    weatherIcon.src="icons/scatteredClouds_img.png";
 }
 
 }
